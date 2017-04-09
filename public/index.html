@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+    <head>
+		<meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
+        <title>Alumni Web Portal</title>
+		<link rel="shortcut icon" type="image/x-icon" href="/assets/images/Cap_Circle_Icon.png"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+        <meta name="description" content="Animated Responsive Image Grid - Cycling through a set of images in a responsive grid." />
+        <meta name="keywords" content="grid, images, thumbnails, responsive, css3, jquery, javascript, random, transition, 3d, perspective" />
+        <meta name="author" content="Codrops" />
+        <!--<link rel="shortcut icon" href="../favicon.ico"> -->
+		<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+		<link href="https://fonts.googleapis.com/css?family=Josefin+Sans|Montserrat" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="/assets/css/index.css" />
+		<link rel="stylesheet" type="text/css" href="/assets/css/profile.css" />
+    </head>
+
+<body>
+	
+
+<div class="container center-block">
+
+		<div class="row">
+				<!--Focal Image-->
+				<div class="focalImage"><img class="focalImage-img" src="/assets/images/BlankFocalImage.jpg"></div>
+		</div>
+
+		<div class="row loginRow">
+			<div class="col-md-4">
+				<!-- University Logo -->
+				<div class="text-center alumniPortalLogo"><img src="/assets/images/alumniPortalLogo.png"></div>
+				<h1 class="text-center poweredByLine">Powered by</h1>
+				<div class="text-center academicWebSolutionsLogo"><img src="/assets/images/academicWebSolutionsLogoSMALL.png"></div>
+			</div>
+			
+			<!--Login Portion-->
+			<div class="col-md-8  formFields">
+				<form class="loginForm" method = "POST" action="/api/login/signin">
+					<fieldset>
+						<div class="form-group">
+							<input class="form-control" placeholder="E-mail" name="email" type="email" id="email" autofocus>
+						</div>
+
+						<div class="form-group">
+							<input class="form-control" placeholder="Password" name="password" type="password" id="password" value="">
+						</div>
+							
+						<button type="submit"  class="btn btn-lg btn-block">Login</button>
+					</fieldset>
+					<p>Or sign up <a class:"hereLink" href="/html/signup.html">here</a></p>
+				</form>
+			</div> 
+		</div>
+</div>
+			
+
+
+<script type="text/javascript" src="/assets/js/background.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,189 @@
+.btn-default {
+    color: #555;
+    background-color: rgba(0,0,0,.0001);
+    border-color: rgba(0,0,0,.075);
+} 
+.profilePic{
+  margin-top: 10px;
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+  border-width:5px;
+  box-shadow: -1px 2px 14px 1px rgba(0, 0, 0, 0.55); 
+}
+h2{
+  text-align: center;
+}
+h3{
+  margin-left: 15px;
+}
+h4{
+  letter-spacing: 0.01em;
+  font-weight: lighter;
+  padding-top: 2px;
+}
+.intro-list-group{
+  text-align: center;
+  padding: 0;
+}
+.myModal{
+    display: block !important;
+}
+.modal-dialog{
+      overflow-y: initial !important
+}
+.modal-body{
+  height: 400px;
+  overflow-y: auto;
+}
+#saveBtn{
+  background-color: #50525c;
+  border-color: #50525c;
+  float: right;
+  padding: 10px;
+  margin-right: 10px;
+  box-shadow: 0 2px 5px 0 rgba(0,0,0,.16), 0 2px 10px 0 rgba(0,0,0,.12);
+}
+#closeBtn{
+  float: right;
+  padding: 10px;
+  box-shadow: 0 2px 5px 0 rgba(0,0,0,.16), 0 2px 10px 0 rgba(0,0,0,.12);
+}
+#country, #city, #jobTitle, #jobLocation, #fieldOfStudy{
+  width: 100%;
+  padding: 10px, 12px, 10px, 12px; 
+}
+#headLine, #jobDescription, #activitiesAndSocieties{
+  height: 80px;
+}
+.btn-circle{
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  padding: 6px 0;
+  font-size: 12px;
+  line-height: 1.428571429;
+  border-radius: 15px;
+}
+#editIntroBtn, #addExperienceBtn, #addEducationBtn, #addOrganizationBtn{
+  float: right;
+  box-shadow: 0 2px 5px 0 rgba(0,0,0,.16), 0 2px 10px 0 rgba(0,0,0,.12);
+}
+.panel, .panel-default{
+  padding-right: 30px;
+  padding-left: 30px;
+  border-radius: 6px;
+  border-color: #fff;
+  background-color: #fff;
+  box-shadow: 0 2px 5px 0 rgba(0,0,0,.16), 0 2px 10px 0 rgba(0,0,0,.12);
+}
+.panel-body{
+  padding-right: 0px;
+  padding-left: 0px;
+  border-color: #fff;
+  background-color: #fff;
+}
+.entry:not(:first-of-type)
+{
+  margin-top: 8px;
+}
+#dataForm {
+  width: 100%;
+}
+/* Intro Items */ 
+#iClassOf{
+    font-size: 20px;
+    letter-spacing: 0.02em;
+    font-weight: 600;
+    line-height: inherit;
+}
+#iLocation{
+    font-size: 14px;
+    letter-spacing: 0.01em;
+    font-weight: lighter;
+    line-height: inherit;
+    color: #8c8994;
+    padding-top: 5px;
+    
+}
+#iHeadline{
+    font-size: 16px;
+    letter-spacing: 0.01em;
+    font-weight: lighter;
+    line-height: inherit;
+    color: #8c8994;
+    padding-top: 5px;
+}
+/* Experience Items */ 
+#jTitle{
+    font-size: 18px;
+    letter-spacing: 0.01em;
+    font-weight: 600;
+    line-height: inherit;
+}
+#jCompany{
+    font-size: 18px;
+    letter-spacing: 0.01em;
+    font-weight: lighter;
+    line-height: inherit;
+    color: #8c8994;
+    
+}
+#jLocation{
+    font-size: 14px;
+    letter-spacing: 0.01em;
+    font-weight: lighter;
+    line-height: inherit;
+    color: #8c8994;
+}
+#jDate{
+    font-size: 14px;
+    font-weight: normal;
+    line-height: inherit;
+    color: #8c8994;
+}
+#jDescription{
+    font-size: 12px;
+    font-weight: lighter;
+    line-height: inherit;
+    color: #8c8994;
+    padding-top: 3px;
+}
+/* Education Items */ 
+#eSchoolName{
+    font-size: 18px;
+    letter-spacing: 0.02em;
+    font-weight: 600;
+    line-height: inherit;
+}
+#eDegree{
+    font-size: 16px;
+    letter-spacing: 0.01em;
+    font-weight: 600;
+    line-height: inherit;
+    color: #8c8994;
+}
+#eFieldOfStudy{
+    font-size: 14px;
+    letter-spacing: 0.01em;
+    font-weight: lighter;
+    line-height: inherit;
+    color: #8c8994;
+    
+}
+#eSchoolActivities{
+    font-size: 12px;
+    letter-spacing: 0.01em;
+    font-weight: lighter;
+    line-height: inherit;
+    color: #8c8994;
+   
+}
+#eSchoolYears{
+    font-size: 14px;
+    letter-spacing: 0.02em;
+    font-weight: 600;
+    line-height: inherit;
+    color: #8c8994;
+   
+}
