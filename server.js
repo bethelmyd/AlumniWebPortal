@@ -59,6 +59,10 @@ db.on("error", function(err) {
 // });
 
 // -------------------------------------------------
+app.get('/',function (req, res) {
+        //res.redirect('/');
+        res.sendFile(path.join(__dirname + "/public/index.html"));
+    });
 
 var routes = require("./server/controllers");
 app.use("/api", routes);
