@@ -4,6 +4,7 @@ var bodyParser = require("body-parser");
 var logger = require("morgan");
 var mongoose = require("mongoose");
 var flash = require('connect-flash');
+var path = require("path");
 
 // var DatabaseSeeder = require("./server/seed-data/seed");
 
