@@ -38,9 +38,9 @@ app.use(passport.session());
 // MongoDB Configuration configuration (Change this URL to your own DB)
 Promise = require('bluebird');
 mongoose.Promise = Promise;
-var uri = 'mongodb://heroku_bd789bst:g4p87r7cqcm54jvucqhlo0cgpi@ds157380.mlab.com:57380/heroku_bd789bst';
+MONGOLAB_URI = 'mongodb://heroku_bd789bst:g4p87r7cqcm54jvucqhlo0cgpi@ds157380.mlab.com:57380/heroku_bd789bst';
 // mongoose.connect("mongodb://localhost/AlumniWebPortalDB");
-mongoose.connect(uri);
+mongoose.connect(process.env.MONGOLAB_URI);
 var db = mongoose.connection;
 
 db.once("open", function() {
