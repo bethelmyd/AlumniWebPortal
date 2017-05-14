@@ -65,7 +65,7 @@ app.use("/api", routes);
 // Undefined Routes
 app.get('*',function (req, res) {
         //res.redirect('/');
-        res.sendFile(path.join(__dirname + "./public/index.html"));
+        res.sendFile(path.join(__dirname + "/public/index.html"));
     });
 
 // Listener
