@@ -39,7 +39,6 @@ app.use(passport.session());
 // MongoDB Configuration configuration (Change this URL to your own DB)
 Promise = require('bluebird');
 mongoose.Promise = Promise;
-//MONGODB_URI = 'mongodb://heroku_bd789bst:g4p87r7cqcm54jvucqhlo0cgpi@ds157380.mlab.com:57380/heroku_bd789bst';
 // mongoose.connect("mongodb://localhost/AlumniWebPortalDB");
 mongoose.connect(process.env.MONGODB_URI);
 var db = mongoose.connection;
@@ -59,18 +58,18 @@ db.on("error", function(err) {
 // });
 
 // -------------------------------------------------
-app.get('/',function (req, res) {
-        //res.redirect('/');
-        res.sendFile(path.join(__dirname + "/public/index.html"));
-    });
+// app.get('/',function (req, res) {
+//         //res.redirect('/');
+//         res.sendFile(path.join(__dirname + "/public/index.html"));
+//     });
 
 var routes = require("./server/controllers");
 app.use("/api", routes);
 
 // Undefined Routes
 app.get('*',function (req, res) {
-        //res.redirect('/');
-        res.sendFile(path.join(__dirname + "/public/index.html"));
+        res.redirect('/');
+//        res.sendFile(path.join(__dirname + "/public/index.html"));
     });
 
 // Listener
