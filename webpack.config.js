@@ -20,7 +20,7 @@ module.exports = {
         loader: "babel-loader",
         query: {
           // These are the specific transformations we'll be using.
-          presets: ["react"]
+          presets: ["react", "babel-preset-es2015"]
         }
       }
     ]
