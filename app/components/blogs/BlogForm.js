@@ -50,7 +50,6 @@ var BlogForm = React.createClass( {
           <option>Lifestyle</option>
           <option>Marketing</option>
           <option>Medical</option>
-          <option>Social Media</option>
           <option>Money</option>
           <option>Nature</option>
           <option>Parenting</option>
@@ -58,6 +57,7 @@ var BlogForm = React.createClass( {
           <option>Political</option>
           <option>Real Estate</option>
           <option>Shopping</option>
+          <option>Social Media</option>
           <option>Sports</option>
           <option>Technology</option>
           <option>Travel</option>
